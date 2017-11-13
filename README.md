@@ -36,7 +36,7 @@ Important: the application is configured to work with REST API from the JWT WebA
  http://localhost:6349/api/product 
 ```
 
-When application starts, go to http://localhost:4200/signin
+When application starts, go to http://127.0.0.1:8080/#!/login
 
 Validation when trying login with invalid user/password:
 
