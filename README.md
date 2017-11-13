@@ -40,6 +40,6 @@ When application starts, go to http://localhost:4200/signin
 
 Validation when trying login with invalid user/password:
 
-![Alt text](Image/AuthFail.png "Login Failed")
+![Alt text](image/AuthFail.png "Login Failed")
 
 Use login Admin and password teste123
