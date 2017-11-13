@@ -1,0 +1,10 @@
+<h1>{{vm.product.name}}!</h1>
+<h3>All products:</h3>
+<ul>
+    <li ng-repeat="product in vm.allProducts">
+        {{product.code}} ({{product.name}} {{product.description}})
+        - <a ng-click="vm.deleteProduct(product.id)">Delete</a>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<p><a href="#!/login" class="btn btn-primary">Logout</a></p>
